@@ -313,6 +313,7 @@ The project's goal is to provide a user-friendly and interactive platform where 
 
 Overall, the project contributes to the field of healthcare by applying machine learning techniques to aid in disease prediction and provide a convenient tool for individuals to assess their symptoms and seek appropriate medical advice.
 The interactive dashboard allows me to compare the data, filter the data and focus on specific interest when need to. When we have big data file, interactive dashboard make it easy to read the data.
+
 ----------------------------------------------------------------------------
 [Contact me via LinkedIn](https://www.linkedin.com/in/shafinabegum)
 
