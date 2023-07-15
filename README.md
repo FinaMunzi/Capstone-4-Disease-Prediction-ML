@@ -77,8 +77,6 @@ These imported libraries provide a range of functionalities for data manipulatio
 
 [![Screenshot-2023-07-14-at-1-15-36-AM.png](https://i.postimg.cc/90bxMPfM/Screenshot-2023-07-14-at-1-15-36-AM.png)](https://postimg.cc/YL4NDWYK)
 
-The code train.shape and test.shape is used to determine the shape of the DataFrame train and test.
-
 When train.shape and test.shape is executed, it returns a tuple that represents the dimensions of the DataFrame. The first element of the tuple represents the number of rows in the DataFrame, and the second element represents the number of columns.
 
 By calling train.shape and test.shape, you can obtain the number of rows and columns in the train DataFrame and test DataFrame respectively, which provides information about the size of the dataset.
@@ -87,13 +85,11 @@ By calling train.shape and test.shape, you can obtain the number of rows and col
 
 [![Screenshot-2023-07-14-at-1-21-59-AM.png](https://i.postimg.cc/25phvqM7/Screenshot-2023-07-14-at-1-21-59-AM.png)](https://postimg.cc/Yv3vBSpv)
 
-1. The code `train.isnull().any()` is used to check for null values in the DataFrame `train`.
-
 When `train.isnull().any()` is executed, it returns a Series that indicates whether each column in the DataFrame contains any null values. If a column contains at least one null value, the corresponding value in the Series will be `True`; otherwise, it will be `False`.
 
 By using `train.isnull().any()`, you can quickly identify which columns in the `train` DataFrame have missing values. This information is helpful for data cleaning and preprocessing steps, as you can decide how to handle or impute the missing values based on the specific column.
 
-2. The code train.drop('Unnamed: 133', inplace=True, axis=1) is used to drop the column named 'Unnamed: 133' from the DataFrame train.
+The code train.drop('Unnamed: 133', inplace=True, axis=1) is used to drop the column named 'Unnamed: 133' from the DataFrame train.
 
 [Screenshot-2023-07-14-at-1-27-29-AM.png](https://postimg.cc/mhndsbd2)
 
